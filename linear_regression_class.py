@@ -6,7 +6,7 @@ class LinearRegression:
         self._X = None
         self._Y = None
         self._b= None
-        self.confidence_level = confidence_level #add and implement completely
+        self.confidence_level = confidence_level
 
         if X is not None and Y is not None:
             self.fit(X=X, Y=Y)
